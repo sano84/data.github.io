@@ -1,6 +1,5 @@
-# data.github.io
-My personal website
-
+# gishs.github.io
+## Husni Sabah Personal Website
 
 ## Education
 

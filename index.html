@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Strata by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image myphoto"><img src="images/myphoto.jpg" alt="" /></a>
+					<h1><strong>I am Husni Sabah</strong>, a GIS enthusiast<br />
+					love geography, maps and nature. I <br />
+					am interested in data analysis. <br />
+					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Education</h2>
+						</header>
+						<p> - MSc in Plant Science, Utah State University <br />
+							- BSc in Agriculture, American University of Beirut <br />
+							- Data Analysis with R, Datacamp <br />
+							- Geographic Information system Specialization, University of Davis <br />
+							- GIS, Mapping and Spatial Analysis Specialization, University of Toronto <br />
+							- Data Science Fundamentals with Python and SQL Specialization, IBM</p>
+							<head>
+								<head>
+									<meta name="viewport" content="width=device-width, initial-scale=1">
+									<style>
+									* {
+									  box-sizing: border-box;
+									}
+									
+									body {
+									  margin: 0;
+									  font-family: Arial;
+									}
+									
+									/* The grid: Four equal columns that floats next to each other */
+									.column {
+									  float: left;
+									  width: 25%;
+									  padding: 10px;
+									}
+									
+									/* Style the images inside the grid */
+									.column img {
+									  opacity: 0.8; 
+									  cursor: pointer; 
+									}
+									
+									.column img:hover {
+									  opacity: 1;
+									}
+									
+									/* Clear floats after the columns */
+									.row:after {
+									  content: "";
+									  display: table;
+									  clear: both;
+									}
+									
+									/* The expanding image container */
+									.container {
+									  position: relative;
+									  display: none;
+									}
+									
+									/* Expanding image text */
+									#imgtext {
+									  position: absolute;
+									  bottom: 15px;
+									  left: 15px;
+									  color: white;
+									  font-size: 20px;
+									}
+									
+									/* Closable button inside the expanded image */
+									.closebtn {
+									  position: absolute;
+									  top: 10px;
+									  right: 15px;
+									  color: white;
+									  font-size: 35px;
+									  cursor: pointer;
+									}
+									</style>
+									</head>
+									<body>
+									
+									<div style="text-align:center">
+									  <h2>Portofilio</h2>
+									  <p>Click on the images below:</p>
+									</div>
+									
+									<!-- The four columns -->
+									<div class="row">
+									  <div class="column">
+										<img src="images/01.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/02.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/03.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/04.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/05.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/06.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/07.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/08.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/09.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/10.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/11.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/12.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/13.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/14.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/15.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									  <div class="column">
+										<img src="images/16.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+									  </div>
+									</div>
+									
+									<div class="container">
+									  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+									  <img id="expandedImg" style="width:100%">
+									  <div id="imgtext"></div>
+									</div>
+									
+									<script>
+									function myFunction(imgs) {
+									  var expandImg = document.getElementById("expandedImg");
+									  var imgText = document.getElementById("imgtext");
+									  expandImg.src = imgs.src;
+									  imgText.innerHTML = imgs.alt;
+									  expandImg.parentElement.style.display = "block";
+									}
+									</script>
+									
+									</body>
+									</html>
+									
+								</html>
+								
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/husni-sabah-19527416a" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/sano84" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<!-- / being said -->
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
