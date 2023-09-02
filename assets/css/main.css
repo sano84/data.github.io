@@ -154,6 +154,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		text-align: center;
 	}
 
 	h3 {
@@ -2644,6 +2645,7 @@ input, select, textarea {
 		}
 
 /* Footer */
+/* the author said */
 
 	#footer .icons {
 		margin: 1em 0 0 0;
